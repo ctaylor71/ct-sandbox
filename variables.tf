@@ -13,3 +13,9 @@ variable "instance_name" {
   default     = "Provisioned by tf-zratani0123"
 }
 
+variable "environment_name" {
+  description = "Environment"
+  default     = "Dev"
+}
+
+
