@@ -15,7 +15,7 @@ variable "instance_name" {
 
 variable "environment_name" {
   description = "Environment"
-  default     = "Dev"
+  default     = "PROD"
 }
 
 
