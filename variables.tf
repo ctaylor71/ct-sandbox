@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "instance_name" {
   description = "EC2 instance name"
-  default     = "Provisioned by tf-zratani0123"
+  default     = "Provisioned by tf-ctaylor"
 }
 
 variable "environment_name" {
