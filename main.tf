@@ -1,3 +1,12 @@
+terraform {
+backend "remote" {
+  organization = "ctaylor-training"
+  workspaces {
+    name = "live-demo"
+   }
+ }
+}  
+
 provider "aws" {
   region = var.region
 }
