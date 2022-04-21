@@ -1,13 +1,4 @@
-terraform {
-backend "remote" {
-  organization = "ctaylor-training"
-  workspaces {
-    name = "ct-sandbox"
-   }
- }
-}  
-
-provider "aws" {
+ provider "aws" {
   region = var.region
 }
 
