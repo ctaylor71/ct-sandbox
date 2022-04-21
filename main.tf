@@ -2,7 +2,7 @@ terraform {
 backend "remote" {
   organization = "ctaylor-training"
   workspaces {
-    name = "live-demo"
+    name = "ct-sandbox"
    }
  }
 }  
